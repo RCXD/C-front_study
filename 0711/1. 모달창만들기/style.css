@@ -6,7 +6,12 @@
 
   position: fixed;
 
-  /* display: none; */
+  display: none;
+}
+
+.show {
+  display: block;
+/*   /* display: none; */
   visibility: hidden;
   opacity: 0;
   transition: all 1s;
@@ -15,7 +20,7 @@
 .show {
   /* display: block; */
   visibility: visible;
-  opacity: 1;
+  opacity: 1; */
 }
 
 .white-bg {
